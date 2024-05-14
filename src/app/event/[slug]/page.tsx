@@ -10,6 +10,6 @@ export default async function EventPage({ params }: EventPageProps) {
     `https://bytegrad.com/course-assets/projects/evento/api/events/${slug}`
   );
   const event = await response.json();
-  console.log(data);
+
   return <main>Event page</main>;
 }
